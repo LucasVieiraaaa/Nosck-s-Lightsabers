@@ -33,7 +33,7 @@ import org.slf4j.Logger;
 public class ExampleMod
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "Nosck's Lightsabers";
+    public static final String MOD_ID = "Noscks Lightsabers";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
