@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "nosckslightsabersmod:block/light_bookshelf_bottom_top",
+    "bottom": "nosckslightsabersmod:block/light_bookshelf_bottom_top",
+    "side": "nosckslightsabersmod:block/light_bookshelf_sides"
+  }
+}

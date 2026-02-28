@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.nosck.nosckslightsabersmod.NoscksLightsabersMod;
+import net.nosck.nosckslightsabersmod.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -19,8 +20,10 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.KYBERCRYSTAL.get());
+                        pOutput.accept(ModBlocks.LIGHT_BOOKSHELF.get());
                     })
                     .build());
+
 
 
     public static void register(IEventBus eventBus) {
