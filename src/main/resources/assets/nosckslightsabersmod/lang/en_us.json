@@ -1,7 +1,11 @@
 {
   "item.nosckslightsabersmod.kybercrystal": "Blue Kyber Crystal",
   "item.nosckslightsabersmod.red_kybercrystal": "Red Kyber Crystal",
+
+  "item.nosckslightsabersmod.magnetic_stabilizing_ring": "Magnetic Stabilizing Ring",
+
   "creativetab.nosckslightsabersmod": "Nosck's Lightsabers",
+
   "block.nosckslightsabersmod.light_bookshelf": "Light Bookshelf",
   "block.nosckslightsabersmod.dark_bookshelf": "Dark Bookshelf"
 }

@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.KYBERCRYSTAL.get());
                         pOutput.accept(ModItems.RED_KYBERCRYSTAL.get());
+                        pOutput.accept(ModItems.MAGNETIC_STABILIZING_RING.get());
                         pOutput.accept(ModBlocks.LIGHT_BOOKSHELF.get());
                         pOutput.accept(ModBlocks.DARK_BOOKSHELF.get());
                     })
