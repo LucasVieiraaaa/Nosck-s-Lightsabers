@@ -21,6 +21,12 @@ public class ModItems {
     public static final RegistryObject<Item> MAGNETIC_STABILIZING_RING = ITEMS.register("magnetic_stabilizing_ring",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> CYCLING_FIELD_ENERGIZERS = ITEMS.register("cycling_field_energizers",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CRYSTAL_ENERGY_CHAMBER = ITEMS.register("crystal_energy_chamber",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

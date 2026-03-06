@@ -3,22 +3,22 @@
   "category": "misc",
   "pattern": [
     "III",
-    "CRC",
-    "   "
+    "DRD",
+    "III"
   ],
   "key": {
     "R": {
       "item": "minecraft:redstone"
     },
+    "D": {
+      "item": "minecraft:diamond"
+    },
     "I": {
       "item": "minecraft:iron_ingot"
-    },
-    "C": {
-      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "nosckslightsabersmod:magnetic_stabilizing_ring",
+    "item": "nosckslightsabersmod:crystal_energy_chamber",
     "count": 1
   }
 }

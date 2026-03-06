@@ -2,23 +2,23 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "III",
     "CRC",
-    "   "
+    "GRG",
+    "CRC"
   ],
   "key": {
     "R": {
       "item": "minecraft:redstone"
     },
-    "I": {
-      "item": "minecraft:iron_ingot"
+    "G": {
+      "item": "minecraft:gold_ingot"
     },
     "C": {
       "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "nosckslightsabersmod:magnetic_stabilizing_ring",
+    "item": "nosckslightsabersmod:cycling_field_energizers",
     "count": 1
   }
 }

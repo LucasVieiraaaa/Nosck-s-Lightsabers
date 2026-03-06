@@ -22,6 +22,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.KYBERCRYSTAL.get());
                         pOutput.accept(ModItems.RED_KYBERCRYSTAL.get());
                         pOutput.accept(ModItems.MAGNETIC_STABILIZING_RING.get());
+                        pOutput.accept(ModItems.CYCLING_FIELD_ENERGIZERS.get());
+                        pOutput.accept(ModItems.CRYSTAL_ENERGY_CHAMBER.get());
                         pOutput.accept(ModBlocks.LIGHT_BOOKSHELF.get());
                         pOutput.accept(ModBlocks.DARK_BOOKSHELF.get());
                     })
