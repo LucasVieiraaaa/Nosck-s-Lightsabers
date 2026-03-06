@@ -19,19 +19,23 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KYBERCRYSTAL.get()))
                     .title(Component.translatable("creativetab.nosckslightsabersmod"))
                     .displayItems((pParameters, pOutput) -> {
+                        //Crystals
                         pOutput.accept(ModItems.KYBERCRYSTAL.get());
                         pOutput.accept(ModItems.RED_KYBERCRYSTAL.get());
+
+                        //Lightsabers parts
                         pOutput.accept(ModItems.MAGNETIC_STABILIZING_RING.get());
                         pOutput.accept(ModItems.CYCLING_FIELD_ENERGIZERS.get());
                         pOutput.accept(ModItems.CRYSTAL_ENERGY_CHAMBER.get());
                         pOutput.accept(ModItems.POWER_FIELD_CONDUCTOR.get());
                         pOutput.accept(ModItems.DIATIUM_POWER_CELL.get());
                         pOutput.accept(ModItems.COMPLETED_POWER_FIELD_CONDUCTOR.get());
+
+                        //Blocks
                         pOutput.accept(ModBlocks.LIGHT_BOOKSHELF.get());
                         pOutput.accept(ModBlocks.DARK_BOOKSHELF.get());
                     })
                     .build());
-
 
 
     public static void register(IEventBus eventBus) {
