@@ -15,12 +15,14 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NoscksLightsabersMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
+    public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("nosckslightsabersmod",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.KYBERCRYSTAL.get()))
-                    .title(Component.translatable("creativetab.tutorial_tab"))
+                    .title(Component.translatable("creativetab.nosckslightsabersmod"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.KYBERCRYSTAL.get());
+                        pOutput.accept(ModItems.RED_KYBERCRYSTAL.get());
                         pOutput.accept(ModBlocks.LIGHT_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.DARK_BOOKSHELF.get());
                     })
                     .build());
 

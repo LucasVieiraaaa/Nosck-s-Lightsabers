@@ -1,5 +1,7 @@
 {
-  "item.nosckslightsabersmod.kybercrystal": "Kyber Crystal",
-  "creativetab.tutorial_tab": "Nosck's Lightsabers",
-  "block.nosckslightsabersmod.light_bookshelf": "Light Bookshelf"
+  "item.nosckslightsabersmod.kybercrystal": "Blue Kyber Crystal",
+  "item.nosckslightsabersmod.red_kybercrystal": "Red Kyber Crystal",
+  "creativetab.nosckslightsabersmod": "Nosck's Lightsabers",
+  "block.nosckslightsabersmod.light_bookshelf": "Light Bookshelf",
+  "block.nosckslightsabersmod.dark_bookshelf": "Dark Bookshelf"
 }

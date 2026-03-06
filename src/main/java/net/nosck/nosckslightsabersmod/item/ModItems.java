@@ -15,6 +15,9 @@ public class ModItems {
     public static final RegistryObject<Item> KYBERCRYSTAL = ITEMS.register("kybercrystal",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RED_KYBERCRYSTAL = ITEMS.register("red_kybercrystal",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

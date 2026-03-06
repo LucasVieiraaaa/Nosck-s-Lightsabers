@@ -27,6 +27,11 @@ public class ModBlocks {
                     .sound((SoundType.DEEPSLATE))
                     .lightLevel(state -> 5)));
 
+    public static final RegistryObject<Block> DARK_BOOKSHELF = registerBlock("dark_bookshelf",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BOOKSHELF)
+                    .sound((SoundType.DEEPSLATE))
+                    .lightLevel(state -> 5)));
+
     private static <T extends Block> RegistryObject<T>registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
