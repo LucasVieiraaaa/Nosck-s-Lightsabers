@@ -24,6 +24,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MAGNETIC_STABILIZING_RING.get());
                         pOutput.accept(ModItems.CYCLING_FIELD_ENERGIZERS.get());
                         pOutput.accept(ModItems.CRYSTAL_ENERGY_CHAMBER.get());
+                        pOutput.accept(ModItems.POWER_FIELD_CONDUCTOR.get());
+                        pOutput.accept(ModItems.DIATIUM_POWER_CELL.get());
+                        pOutput.accept(ModItems.COMPLETED_POWER_FIELD_CONDUCTOR.get());
                         pOutput.accept(ModBlocks.LIGHT_BOOKSHELF.get());
                         pOutput.accept(ModBlocks.DARK_BOOKSHELF.get());
                     })

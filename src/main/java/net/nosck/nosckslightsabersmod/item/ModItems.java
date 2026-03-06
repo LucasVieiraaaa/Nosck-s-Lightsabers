@@ -27,6 +27,15 @@ public class ModItems {
     public static final RegistryObject<Item> CRYSTAL_ENERGY_CHAMBER = ITEMS.register("crystal_energy_chamber",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> POWER_FIELD_CONDUCTOR = ITEMS.register("power_field_conductor",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DIATIUM_POWER_CELL = ITEMS.register("diatium_power_cell",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COMPLETED_POWER_FIELD_CONDUCTOR = ITEMS.register("completed_power_field_conductor",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

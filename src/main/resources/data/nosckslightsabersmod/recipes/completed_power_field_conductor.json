@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "nosckslightsabersmod:diatium_power_cell"
+    },
+    {
+      "item": "nosckslightsabersmod:power_field_conductor"
+    }
+  ],
+  "result": {
+    "item": "nosckslightsabersmod:completed_power_field_conductor",
+    "count": 1
+  }
+}

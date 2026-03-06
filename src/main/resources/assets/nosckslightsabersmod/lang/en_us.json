@@ -6,6 +6,10 @@
   "item.nosckslightsabersmod.cycling_field_energizers": "Cycling Field Energizers Circuit",
   "item.nosckslightsabersmod.crystal_energy_chamber": "Crystal Energy Chamber",
 
+  "item.nosckslightsabersmod.power_field_conductor": "Power Field Conductor",
+  "item.nosckslightsabersmod.diatium_power_cell": "Diatium Power Cell",
+  "item.nosckslightsabersmod.completed_power_field_conductor": "Completed Power Field Conductor",
+
   "creativetab.nosckslightsabersmod": "Nosck's Lightsabers",
 
   "block.nosckslightsabersmod.light_bookshelf": "Light Bookshelf",

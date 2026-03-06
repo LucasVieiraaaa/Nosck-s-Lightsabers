@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    " # ",
+    " I "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "nosckslightsabersmod:diatium_power_cell",
+    "count": 1
+  }
+}
