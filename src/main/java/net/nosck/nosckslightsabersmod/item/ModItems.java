@@ -36,6 +36,9 @@ public class ModItems {
     public static final RegistryObject<Item> COMPLETED_POWER_FIELD_CONDUCTOR = ITEMS.register("completed_power_field_conductor",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> ANAKIN_LIGHTSABER = ITEMS.register("anakin_lightsaber",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

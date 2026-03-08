@@ -23,6 +23,9 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.KYBERCRYSTAL.get());
                         pOutput.accept(ModItems.RED_KYBERCRYSTAL.get());
 
+                        //Lightsabers
+                        pOutput.accept(ModItems.ANAKIN_LIGHTSABER.get());
+
                         //Lightsabers parts
                         pOutput.accept(ModItems.MAGNETIC_STABILIZING_RING.get());
                         pOutput.accept(ModItems.CYCLING_FIELD_ENERGIZERS.get());
