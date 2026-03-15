@@ -32,6 +32,10 @@ public class ModBlocks {
                     .sound((SoundType.DEEPSLATE))
                     .lightLevel(state -> 5)));
 
+    public static final RegistryObject<Block> LIGHTSABER_WORKBENCH = registerBlock("lightsaber_workbench",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+                    .sound((SoundType.STONE))));
+
     private static <T extends Block> RegistryObject<T>registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

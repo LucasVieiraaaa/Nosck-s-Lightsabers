@@ -37,6 +37,7 @@ public class ModCreativeModTabs {
                         //Blocks
                         pOutput.accept(ModBlocks.LIGHT_BOOKSHELF.get());
                         pOutput.accept(ModBlocks.DARK_BOOKSHELF.get());
+                        pOutput.accept(ModBlocks.LIGHTSABER_WORKBENCH.get());
                     })
                     .build());
 
